@@ -14,11 +14,16 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "Demo.dm"
-#include "Demo\JsonTypes\Chair.dm"
-#include "Demo\JsonTypes\LawnMower.dm"
-#include "Demo\JsonTypes\Location.dm"
-#include "Demo\JsonTypes\User.dm"
-#include "JsonLib\Json.dm"
+#include "c:\BYONDLibs\seraph2026\zen\zen.dme"
+#include "Code\Json.dm"
+#include "Code\JsonUtils.dm"
+#include "Demo\Demo.dm"
+#include "Demo\Types\Location.dm"
+#include "Demo\Types\Pet.dm"
+#include "Demo\Types\User.dm"
+#include "Tests\Tests.dm"
+#include "Tests\Mocks\Location.dm"
+#include "Tests\Mocks\Pet.dm"
+#include "Tests\Mocks\User.dm"
 // END_INCLUDE
 
