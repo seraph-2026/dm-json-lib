@@ -19,6 +19,10 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
 
+    "[markdown]": {
+        "editor.formatOnSave": false
+    },
+
     "search.exclude": {
         "**/node_modules": true,
         "**/build": true
