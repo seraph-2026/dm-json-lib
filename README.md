@@ -54,12 +54,14 @@ These are the different ways you can output a JSON object
 ### Pretty
 Nicely formatted for debugging.
 
+#### Output styles
 ```NIM
 world << user
 ```
 ```NIM
 world << user.stringify()
 ```
+#### Output result
 ```json
 {
     "name": "lisa",
@@ -85,9 +87,11 @@ world << user.stringify()
 
 No formatting, everything on a single line with no spaces. 
 
+#### Output style
 ```NIM
 world << user.toString()
 ```
+#### Output result
 ```json
 {"name":"lisa","age":44,"location":{"city":"Springfield","country":"US"},"pets":[{"name":"Snowball VI","species":"Cat"},{"name":"Snowball VII","species":"Cat"}]}
 ```
