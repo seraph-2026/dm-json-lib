@@ -54,14 +54,14 @@ These are the different ways you can output a JSON object
 ### Pretty
 Nicely formatted for debugging.
 
-#### Output style
+#### Output styles
 ```NIM
 world << user
 ```
-#### Output result
 ```NIM
 world << user.stringify()
 ```
+#### Output result
 ```json
 {
     "name": "lisa",
