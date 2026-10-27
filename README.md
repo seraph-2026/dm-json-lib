@@ -8,7 +8,7 @@ This library is intended to make it easier to work with JSON in DM (Dream Maker)
 
 It's designed to work just like regular datums.
 
-```java
+```NIM
 var/json/user = new/json/user(
 	name = "lisa",
 	age = 44,
@@ -27,7 +27,7 @@ var/json/user = new/json/user(
 
 Defining JSON types means that now we get compile time errors intead of run time errors when there's a data mismatch. This means less suprise failures.
 
-```java
+```NIM
 json/user
 	var
 		name
@@ -53,17 +53,17 @@ These are the different ways you can output a JSON object
 
 ### Pretty output
 
-```java
+```NIM
 world << user
 ```
 
-```java
+```NIM
 world << user.stringify()
 ```
 
 ### Plain output
 
-```java
+```NIM
 world << user.toString()
 ```
 
