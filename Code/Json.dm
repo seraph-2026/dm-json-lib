@@ -10,6 +10,14 @@ json
 		return src.stringify()
 
 	/**
+	 * Override the default [] indexing
+	 * 
+	 * For example json["name"]
+	 */
+	proc/operator[](var/index)
+		return src.vars[index]
+
+	/**
 	 * Converts this object to a plain json formatted string without
 	 * spaces tabs or newlines.
 	 */
