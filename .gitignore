@@ -1,7 +1,8 @@
 
-JsonLib.dmb
-JsonLib.dyn.rsc
-JsonLib.int
-JsonLib.rsc
-JsonLib.rsc.lk
-JsonLib.lk
+*.dmb
+*.dyn.rsc
+*.int
+*.rsc
+*.rsc.lk
+*.lk
+*.zip

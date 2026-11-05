@@ -22,4 +22,8 @@ mob
 		 */
 		world << user
 
-		zen.exec(src)
+
+		/**
+		 * Toggle tests on or off by uncommenting and ticking each file in the test folder
+		 */
+		// zen.exec(src)

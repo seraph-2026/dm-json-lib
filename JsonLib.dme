@@ -14,9 +14,10 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "c:\BYONDLibs\seraph2026\zen\zen.dme"
+#include <seraph2026\zen\Zen.dme>
 #include "Code\Json.dm"
 #include "Code\JsonUtils.dm"
+#ifdef __MAIN__ // BEGIN_DEMO
 #include "Demo\Demo.dm"
 #include "Demo\Types\Location.dm"
 #include "Demo\Types\Pet.dm"
@@ -25,5 +26,6 @@
 #include "Tests\Mocks\Location.dm"
 #include "Tests\Mocks\Pet.dm"
 #include "Tests\Mocks\User.dm"
+#endif          // END_DEMO
 // END_INCLUDE
 
